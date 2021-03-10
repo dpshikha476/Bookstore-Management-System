@@ -75,5 +75,43 @@
  }
 .cont6
 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 7rem;
     background-color: #ff4c68;
+}
+
+.indi
+{
+    margin-bottom: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.cont7
+{
+    margin-top: 4rem;
+    padding: 7rem;
+    background-image: url("../assests/background.png");
+    text-align: right;
+}
+
+.cont9
+{
+    background-color: whitesmoke;
+    padding-top: 4rem;
+    margin-top: 4rem;
+}
+
+.smallbook
+{
+    height: 90%;
+    width: 80%;
+}
+
+.cont10
+{
+    background-color: whitesmoke;
+    padding-top: 4rem;
+    margin-top: 4rem;
 }
