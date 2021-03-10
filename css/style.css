@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.card
+.cont2 .card
 {
     margin: 2rem;
 }
@@ -56,6 +56,12 @@
 
 }
 
+
+.cont4 .card
+{
+    margin: 2rem;
+}
+
 .cont5
 {
     margin-top: 4rem;
@@ -81,11 +87,10 @@
     background-color: #ff4c68;
 }
 
-.indi
+.con
 {
-    margin-bottom: 5rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 .cont7
@@ -94,6 +99,16 @@
     padding: 7rem;
     background-image: url("../assests/background.png");
     text-align: right;
+}
+
+.cont8
+{
+ 
+}
+
+.cont8 .card
+{
+    margin: 2rem;
 }
 
 .cont9
@@ -114,4 +129,36 @@
     background-color: whitesmoke;
     padding-top: 4rem;
     margin-top: 4rem;
+}
+
+.cont11
+{
+    background-image: url("../assests/background.png");
+    padding: 7rem;
+    text-align: center;
+}
+
+.cont12
+{
+    padding: 3rem;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.te
+{
+    float: left;
+}
+
+.dis
+{
+    float: right;
+}
+
+
+.footer
+{
+    background-color: whitesmoke;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
