@@ -13,47 +13,63 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- google fonts -->
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet"> 
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fascinate&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Akaya+Telivigala&family=Fascinate&display=swap" rel="stylesheet">
+    
     <!-- css stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Bookstar</title>
+
+    <title>Powerful Plots</title>
 </head>
 <body>
-
+  
     <!-- navbar -->
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Bookstar</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand logo" href="#">Powerful <span style="color: #ff4c68;">Plots.</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <div class="navbar-toggler-icon"></div>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link navi curr" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Books</a>
+            <li class="nav-item ">
+              <a class="nav-link navi" href="#">Books</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+            <li class="nav-item ">
+              <a class="nav-link navi" href="#">About</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+            <li class="nav-item ">
+                <a class="nav-link navi" href="#">Contact</a>
               </li> 
           </ul>
+          
           <div class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <i class="fas fa-shopping-cart social"></i>
+            <i class="fas fa-sign-out-alt social"></i>
           </div>
         </div>
+        
       </nav>
 
       <!-- container 1 -->
 
     <div class="container-fluid cont">
         <div class="center"> 
-            <h1>Books That Matter</h1>
-            <a class="btn btn-outline-info " href="#">EXPLORE</a>
+            <h1 class="main-heading"><span>Books</span> That Matter</h1>
+            <a class="btn btn-dark but" href="#">Discover Your Next Book</a>
         </div> 
     </div>
 
@@ -61,7 +77,7 @@
     <div class="container-fluid cont2">
         
         <div class="container">
-          <h1 class="head">Discover Your Next Book</h1> 
+          <h1 class="head"><span>Discover</span> Your Next Book</h1> 
 
             <div class="card-group">
                 <div class="card text-center">
@@ -109,44 +125,45 @@
         </div>
 
         <div class="button">
-        <a href="#" class="btn btn-dark ">Discover More Books</a>
+        <a href="#" class="btn btn-dark but">Discover More Books</a>
         </div>
 
     </div>
 
     <!-- container 3 -->
     <div class="container-fluid cont3"> 
-          <h1 class="head">Subscribe to our Newsletter</h1>
-          <input type="email" placeholder="Your Email" class="input">
-          <a class="btn btn-dark " href="#">Subscribe</a>
-      
+          <h1 class="head"><span>Subscribe </span> to our Newsletter</h1>
+          <div class="subs">
+            <input type="email" placeholder="Your Email" class="input">
+            <a class="btn btn-dark butn" href="#">Subscribe</a>
+          </div>
     </div>
 
     <!-- container 4 -->
 
     <div class="container-fluid cont4"> 
       <div class="container">
-      <h1 class="head">Choose Your Book!</h1> 
+      <h1 class="head"><span>Choose </span>Your Book!</h1> 
       <div class="card-group">
-        <div class="card text-center">
+        <div class="card text-center cardo">
           <img class="card-img-top" src="assests/cover-2.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
           </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center cardo">
           <img class="card-img-top" src="assests/cover-1.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
           </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center cardo">
           <img class="card-img-top" src="assests/cover-3.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
           </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center cardo">
           <img class="card-img-top" src="assests/cover-4.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -157,7 +174,7 @@
       </div>
       
       <div class="button">
-        <a href="#" class="btn btn-dark ">Discover More Books</a>
+        <a href="#" class="btn btn-dark but ">Discover More Books</a>
         </div>
 
     </div>  
@@ -166,7 +183,7 @@
     <div class="container-fluid cont5"> 
       <i class="fas fa-quote-left size"></i>
       <h3>If you don’t like to read, you haven’t found the right book.</h3>
-      <span>– J.K. Rowling</span>
+      <h4>– J.K. Rowling</h4>
     </div>
 
 
@@ -175,7 +192,7 @@
       <div class="container-fluid cont6"> 
         <div class="container" >
 
-        <h1 class="head">Indian Best seller</h1>
+        <h1 class="head">Indian <span>Bestseller</span></h1>
 
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
@@ -198,7 +215,7 @@
         <div class="carousel-item active">
 
           <div class="col-md-3" style="float:left">
-          <div class="card mb-2 text-center">
+          <div class="card mb-2 text-center cardo">
               <img class="card-img-top" src="assests/i1.jpg" alt="Card image cap">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -208,7 +225,7 @@
           </div>
 
           <div class="col-md-3" style="float:left">
-            <div class="card mb-2 text-center">
+            <div class="card mb-2 text-center cardo">
               <img class="card-img-top" src="assests/i2.jpg" alt="Card image cap">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -218,7 +235,7 @@
           </div>
 
           <div class="col-md-3" style="float:left">
-            <div class="card mb-2 text-center">
+            <div class="card mb-2 text-center cardo">
               <img class="card-img-top" src="assests/i3.jpg" alt="Card image cap">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -228,7 +245,7 @@
           </div>
           
           <div class="col-md-3" style="float:left">
-          <div class="card mb-2 text-center">
+          <div class="card mb-2 text-center cardo">
             <img class="card-img-top" src="assests/i4.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
@@ -242,7 +259,7 @@
         <div class="carousel-item">
 
           <div class="col-md-3" style="float:left">
-            <div class="card mb-2 text-center">
+            <div class="card mb-2 text-center cardo">
               <img class="card-img-top" src="assests/i4.jpg" alt="Card image cap">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -252,7 +269,7 @@
           </div>
 
           <div class="col-md-3" style="float:left">
-            <div class="card mb-2 text-center">
+            <div class="card mb-2 text-center cardo">
               <img class="card-img-top" src="assests/i6.jpg" alt="Card image cap">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -262,7 +279,7 @@
           </div>
 
           <div class="col-md-3" style="float:left">
-            <div class="card mb-2 text-center">
+            <div class="card mb-2 text-center cardo">
               <img class="card-img-top" src="assests/i7.jpg" alt="Card image cap">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -272,7 +289,7 @@
           </div>
           
           <div class="col-md-3" style="float:left">
-            <div class="card mb-2 text-center">
+            <div class="card mb-2 text-center cardo">
               <img class="card-img-top" src="assests/i8.jpg" alt="Card image cap">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -292,21 +309,22 @@
        <!-- container 7 -->
 
        <div class="container-fluid cont7"> 
-        <h1>Inspire Daily Reading</h1>
-        <p>Follow Our Instagram Page And Find Out Daily Inspiration Quotes from the best Authors.</p>
-          <a href="#" class="btn btn-dark ">More Info</a>
+         <div class="container">
+        <h1 class="head" style="text-align: left;" ><span>Inspire </span>Daily Reading</h1>
+        <p class="content">Follow Our Instagram Page And Find Out Daily Inspiration Quotes from <br>The Best Authors.</p>
+          <a href="#" class="btn btn-dark but">More Info</a>
         </div>
-      
+      </div>
       <!-- container 8 -->
       
       <div class="container-fluid cont8"> 
        
        
         <div class="container">
-          <h1 class="head">Picked by Readers</h1> 
+          <h1 class="head"><span>Picked</span> by Readers</h1> 
 
             <div class="card-group">
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/book2.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -314,7 +332,7 @@
                    
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/book4.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -322,7 +340,7 @@
                    
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/books7.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -330,7 +348,7 @@
                     
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/book12.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -338,7 +356,7 @@
                 
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/book5.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -349,7 +367,7 @@
               </div> 
 
               <div class="button">
-                <a href="#" class="btn btn-dark ">Discover More Books</a>
+                <a href="#" class="btn btn-dark but">Discover More Books</a>
               </div>
         </div>
       </div>
@@ -358,35 +376,35 @@
       <!-- container 9 -->
 
       <div class="container-fluid cont9"> 
-        <div class="container">
+        <div class="container cont9i">
 
           <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12">
-              <h3>FEATURED BESTSELLERS</h3>
+              <h4 class="sub-headings">FEATURED BESTSELLERS</h4>
               <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                  <img src="assests/Ram.png" alt="">
+                <div class="col-lg-6 col-md-6 col-sm-6 ">
+                  <img  src="assests/Rama.jpg" alt="">
                 </div> 
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                  <h2>Ram- The Scion of Ikshvaku</h2>
-                  <h3>Author: Amish Tripathi</h3>
-                  <p>This delightful book is the latest in the series of Ladybird books which have been specially planned to help grown-ups with the world about.</p>
-                  <h3>Price: $ 13.96</h3>
+                <div class="col-lg-6 col-md-6 col-sm-6  colm">
+                  <h2 class="sub-headings">Ram - The Scion of Ikshvaku</h2>
+                  <h3 class="sub-headings"><span class="highlights">Author: </span> Amish Tripathi</h3>
+                  <p class="sub-headings">Scion of Ikshvaku is a one to one replica of the events taking place before the epic tale "Ramayana" and also the fourth book of Amish Tripathi.</p>
+                  <h3><span class="highlights">Price: </span> $ 13.96</h3>
                 </div>   
               </div>
 
             </div>
 
             <div class="col-lg-4 col-md-12">
-              <h3>What's New?</h3>
+              <h3 class="sub-headings">What's New?</h3>
               
               <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4">
                   <img class="smallbook" src="assests/f1.jpg" alt="">
                 </div> 
                 <div class="col-lg-8 col-md-8 col-sm-8">
-                  <h4>It’s a really strange story</h4>
-                  <h5>Price:  $20.55 </h5>
+                  <h5>It’s a really strange story</h5>
+                  <h6>Price:  $20.55 </h6>
                 </div>   
               </div>
               <hr>
@@ -395,8 +413,8 @@
                   <img class="smallbook" src="assests/f2.jpg" alt="">
                 </div> 
                 <div class="col-lg-8 col-md-8 col-sm-8">
-                  <h4>It’s a really strange story</h4>
-                  <h5>Price:  $20.55 </h5>
+                  <h5>It’s a really strange story</h5>
+                  <h6>Price:  $20.55 </h6>
                 </div>   
               </div>
               <hr>
@@ -405,8 +423,8 @@
                   <img class="smallbook" src="assests/f3.jpg" alt="">
                 </div> 
                 <div class="col-lg-8 col-md-8 col-sm-8">
-                  <h4>It’s a really strange story</h4>
-                  <h5>Price:  $20.55 </h5>
+                  <h5>It’s a really strange story</h5>
+                  <h6>Price:  $20.55 </h6>
                 </div>   
               </div>
               <hr>
@@ -415,8 +433,8 @@
                   <img class="smallbook" src="assests/f4.jpg" alt="">
                 </div> 
                 <div class="col-lg-8 col-md-8 col-sm-8">
-                  <h4>It’s a really strange story</h4>
-                  <h5>Price:  $20.55 </h5>
+                  <h5>It’s a really strange story</h5>
+                  <h6>Price:  $20.55 </h6>
                 </div>   
               </div>
 
@@ -425,52 +443,52 @@
           </div>
 
         </div>
-      </div>
+      <!-- </div> -->
 
 
       <!-- container 10 -->
       
-      <div class="container-fluid cont10"> 
-       
-        <div class="container">
+      <!-- <div class="container-fluid cont10">  -->
+       <hr>
+        <div class="container cont10">
           <h1 class="head">Popular Indian Authors</h1> 
 
             <div class="card-group">
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/au1.png" alt="Card image cap">
                   <div class="card-body">
                     <p class="card-text">Arundhati Roy</p>
                    
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/au5.png" alt="Card image cap">
                   <div class="card-body">
                     <p class="card-text">Devdutt Pattnaik</p>
                    
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/au4.png" alt="Card image cap">
                   <div class="card-body">
                     <p class="card-text">Jhumpa Lahiri</p> 
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/au6.png" alt="Card image cap">
                   <div class="card-body">
                     <p class="card-text">Kavita Kane</p>
                 
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/au3.png" alt="Card image cap">
                   <div class="card-body">
                     <p class="card-text">Amish Tripathi </p>
                    
                   </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center cardo">
                   <img class="card-img-top" src="assests/au2.png" alt="Card image cap">
                   <div class="card-body">
                     <p class="card-text">Chitra Banerjee </p>
@@ -527,9 +545,9 @@
     <!-- container 12 -->
 
     <div class="container-fluid cont12"> 
-      <div class="container"> 
+      <div class="container cont12i"> 
       <h2 class="te">Find Books For All Ages!</h2>
-      <a href="#" class="btn btn-dark dis">Explore</a>
+      <a href="#" class="btn btn-dark dis butn">Discover Your Next Book</a>
       </div>
     </div>
 
@@ -537,24 +555,26 @@
     <!-- footer -->
 
     <div class="container-fluid footer"> 
-      <div class="container"> 
+      <div class="container footer-container"> 
         
         <div class="row">
 
-          <div class="col-lg-3 col-md-12 col-sm-12">
-            <h3>Bookstar</h3>
+          <div class="col-lg-3 col-md-12 col-sm-12 footer-padding">
+            <h3 class="logo sub-headings">Powerful <span style="color: #ff4c68;">Plots.</span></h3>
             <h5>Your Favorite Bookshelf!</h5>
             <p>Our mission to give the customers opportunity to enjoy high-quality services to 
               order and receive the best books. Choose your favorite book with us!</p>
             
-              <h3>Follow Us</h3>  
-
+              <h3 class="sub-headings" style="margin-top: 2rem;">Follow Us</h3>  
+              <i class="fab fa-facebook-square social-icons"></i>
+              <i class="fab fa-instagram social-icons"></i>
+              <i class="fab fa-twitter-square social-icons"></i>
 
           </div>
 
-          <div class="col-lg-3 col-md-12 col-sm-12">
+          <div class="col-lg-3 col-md-12 col-sm-12 quick">
             
-            <h3>Bookstar</h3>
+            <h3 class="sub-headings">Quick Links</h3>
             
             <ul >
               <li class="active">
@@ -573,15 +593,15 @@
 
           </div> 
 
-          <div class="col-lg-3 col-md-12 col-sm-12">
-            
+          <div class="col-lg-3 col-md-12 col-sm-12 footer-padding">
+            <h3 class="sub-headings">Bestsellers</h3>
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-4">
                 <img class="smallbook" src="assests/f1.jpg" alt="">
               </div> 
               <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4>It’s a really strange story</h4>
-                <h5>Price:  $20.55 </h5>
+                <h6>It’s a really strange story</h6>
+                <h6>Price:  $20.55 </h6>
               </div>   
             </div>
             <hr>
@@ -590,8 +610,8 @@
                 <img class="smallbook" src="assests/f2.jpg" alt="">
               </div> 
               <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4>It’s a really strange story</h4>
-                <h5>Price:  $20.55 </h5>
+                <h6>It’s a really strange story</h6>
+                <h6>Price:  $20.55 </h6>
               </div>   
             </div>
             <hr>
@@ -600,17 +620,17 @@
                 <img class="smallbook" src="assests/f3.jpg" alt="">
               </div> 
               <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4>It’s a really strange story</h4>
-                <h5>Price:  $20.55 </h5>
+                <h6>It’s a really strange story</h6>
+                <h6>Price:  $20.55 </h6>
               </div>   
             </div>
 
           </div>
 
           <div class="col-lg-3 col-md-12 col-sm-12">
-            <h3>Contact Info</h3>
+            <h3 class="sub-headings">Contact Info</h3>
 
-            <p>Address: 123, New Lenox Chicago, IL 60606</p>
+            <p>Address: 123, New Delhi, INDIA</p>
             <p>Phone: 123-456-7890</p>
             <p>Email: info@yoursite.com</p>
           </div>
@@ -621,7 +641,7 @@
       </div>
       
       <hr>
-      <p>	&copy; Deepshikha</p>
+      <p style="text-align: center;">	&copy; Deepshikha</p>
 
      </div>
 

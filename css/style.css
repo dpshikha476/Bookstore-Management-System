@@ -1,27 +1,129 @@
+
+/* navbar */
+
+.navi
+{
+    font-size: 1.2rem;
+}
+
+.curr
+{
+    color: #ff4c68;
+}
+
+.social
+{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: white;
+}
+
+.social:hover
+{
+    color: #ff4c68;
+}
+
 /* container 1 */
 
 .cont
 {
-    height: 80vh;
+    height: 85vh;
     margin-top: 30px;
-    background-image: url("../assests/background.png");
+    background-image: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background.png");
+    background-size: cover;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.main-heading
+{
+    margin-bottom: 3rem;
+    font-size: 4.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+span
+{
+    font-size: 6rem;
+    font-family: 'Akaya Telivigala', cursive;
+    margin-bottom: 2rem;
+}
+
+.logo
+{
+    font-family: 'Fascinate', cursive;
+    
+}
+.logo span
+{
+    font-size: 2rem;
+    font-family: 'Fascinate', cursive;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Acme', sans-serif;
+}
+
+hr
+{
+    height:1px;
+    border-width:0;
+    color: gray ;
+    background-color: gray  ;
+}
+
+.but
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.but:hover
+{
+    background: transparent;
+    font-weight: bold;
+    border: #252525 solid;
+    color: #252525;
+}
+
+.butn
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.butn:hover
+{
+    background-color: white;
+    font-weight: bold;
+    border: #252525 solid;
+    color: #252525;
+}
+
 /* container 2 */
 
 .cont2
 {
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .head
 {
-  margin-bottom: 4rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
   text-align: center;
+}
+
+.head span
+{
+    font-size: 4.2rem;
 }
 
 .cont2 .card
@@ -47,63 +149,94 @@
     text-align: center;
 }
 
+.subs
+{
+    display: inline;
+}
 .input
 {
     width: 20%;
     height: 25%;
     text-align: center;
-    padding: 4px;
-
+    padding: 0.7rem;
 }
 
+/* container 4 */
+.cont4
+{
+    margin-top: 5rem;
+}
 
 .cont4 .card
 {
     margin: 2rem;
 }
 
+/* container 5 */
+
 .cont5
 {
-    margin-top: 4rem;
-    padding: 7rem;
-    background-image: url("../assests/background.png");
+    height: 70vh;
+    margin-top: 5rem;
+    padding: 10rem;
+    background-image: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)),url("../assests/background3.png");
+    color: white;
+    background-size: cover;
     text-align: center;
 }
 
 .size
 {
-    font-size: 40px;
+    font-size: 4rem;
     margin-bottom: 4rem;
 }
- span
- {
-    font-size: 24px;
- }
+
+/* container 6 */
+
 .cont6
 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    padding: 7rem;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
     background-color: #ff4c68;
+}
+
+.cardo
+{
+    background:transparent;
+    border: none;
 }
 
 .con
 {
     text-align: center;
-    margin-bottom: 3rem;
 }
 
+/* container 7 */
 .cont7
 {
-    margin-top: 4rem;
-    padding: 7rem;
-    background-image: url("../assests/background.png");
-    text-align: right;
+    height: 70vh;
+    padding-top: 7rem;
+    background-image:linear-gradient(rgba(7, 6, 6, 0.5),rgba(7, 6, 6, 0.5)), url("../assests/background2.png");
+    color: white;
+    background-position-y: bottom;
+    background-size: cover;
+    text-align: left;
 }
+
+.content
+{
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+/* container 8 */
 
 .cont8
 {
- 
+    margin-top: 5rem;
 }
 
 .cont8 .card
@@ -111,38 +244,98 @@
     margin: 2rem;
 }
 
+/* container 9 */
+
 .cont9
 {
     background-color: whitesmoke;
-    padding-top: 4rem;
-    margin-top: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-top: 5rem;
 }
 
 .smallbook
 {
-    height: 90%;
-    width: 80%;
+    height: 6rem;
+    width: 4rem;
 }
+
+.highlights
+{
+    color: #ff4c68;
+    font-size: 2rem;
+}
+
+.sub-headings
+{
+    padding-bottom: 1.5rem;
+}
+
+.colm
+{
+    padding-right: 5rem;
+}
+
+.cont9i
+{
+    padding-bottom: 5rem;
+}
+
+/* container 10 */
 
 .cont10
 {
-    background-color: whitesmoke;
-    padding-top: 4rem;
-    margin-top: 4rem;
+    padding-top: 3rem;
 }
+
+.cont10 .card
+{
+    margin: 2rem;
+}
+
+/* container 11 */
 
 .cont11
 {
-    background-image: url("../assests/background.png");
-    padding: 7rem;
+    background-image: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)), url("../assests/background4.png");
+    background-size: cover;
+    padding: 9rem;
     text-align: center;
 }
 
+.carousel-item
+{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.carousel-item h2
+{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.carousel-item p
+{
+    font-size: 1.5rem;
+    color: white;
+}
+/* container 12 */
+
 .cont12
 {
-    padding: 3rem;
+    height: 15vh;
     background-color: #ff4c68;
     color: white;
+}
+
+.cont12i
+{
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
 }
 
 .te
@@ -153,12 +346,46 @@
 .dis
 {
     float: right;
+    
 }
 
+/* footer section */
 
 .footer
 {
     background-color: whitesmoke;
     padding-top: 5rem;
     padding-bottom: 2rem;
+}
+
+.footer-container
+{
+    margin-bottom: 4rem;
+}
+
+.footer-padding
+{
+    padding-right: 4rem;
+}
+
+.quick a
+{
+    color: black;
+}
+
+.quick a:hover
+{
+    color: #ff4c68;
+}
+
+.social-icons
+{
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    color: rgba(7, 6, 6, 0.6);
+}
+
+.social-icons:hover
+{
+    color: #ff4c68;
 }
