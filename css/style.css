@@ -40,14 +40,14 @@
 .main-heading
 {
     margin-bottom: 3rem;
-    font-size: 4.8rem;
+    font-size: 4.8rem; 
     font-weight: bold;
     color: white;
 }
 
 span
 {
-    font-size: 6rem;
+    /* font-size: 6rem; */
     font-family: 'Akaya Telivigala', cursive;
     margin-bottom: 2rem;
 }
@@ -59,7 +59,7 @@ span
 }
 .logo span
 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     font-family: 'Fascinate', cursive;
 }
 
@@ -78,7 +78,7 @@ hr
 
 .but
 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -93,7 +93,7 @@ hr
 
 .butn
 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -145,20 +145,36 @@ hr
 {
     background-color: #ff4c68;
     color: white;
-    padding: 7rem;
-    text-align: center;
+    padding: 5rem;
 }
 
 .subs
 {
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .input
 {
-    width: 20%;
-    height: 25%;
+    width: 18rem;
     text-align: center;
     padding: 0.7rem;
+}
+
+.butn-con3
+{
+    border-radius: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.butn-con3:hover
+{
+    background-color: white;
+    font-weight: bold;
+    border: #252525 solid;
+    color: #252525;
 }
 
 /* container 4 */
@@ -176,9 +192,9 @@ hr
 
 .cont5
 {
-    height: 70vh;
+    /* height: 70vh; */
     margin-top: 5rem;
-    padding: 10rem;
+    padding: 4rem;
     background-image: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)),url("../assests/background3.png");
     color: white;
     background-size: cover;
@@ -217,8 +233,11 @@ hr
 /* container 7 */
 .cont7
 {
-    height: 70vh;
+    
     padding-top: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 7rem;
     background-image:linear-gradient(rgba(7, 6, 6, 0.5),rgba(7, 6, 6, 0.5)), url("../assests/background2.png");
     color: white;
     background-position-y: bottom;
@@ -228,7 +247,7 @@ hr
 
 .content
 {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     margin-bottom: 2.5rem;
 }
 
@@ -254,6 +273,11 @@ hr
     margin-top: 5rem;
 }
 
+.colum
+{
+    padding: 1rem;
+    
+}
 .smallbook
 {
     height: 6rem;
@@ -263,7 +287,7 @@ hr
 .highlights
 {
     color: #ff4c68;
-    font-size: 2rem;
+    /* font-size: 2rem; */
 }
 
 .sub-headings
@@ -299,54 +323,52 @@ hr
 {
     background-image: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)), url("../assests/background4.png");
     background-size: cover;
-    padding: 9rem;
+    padding: 4rem;
     text-align: center;
 }
 
 .carousel-item
 {
-    padding-top: 4rem;
+    /* padding-top: 4rem;
     padding-bottom: 5rem;
     padding-left: 9rem;
-    padding-right: 9rem;
+    padding-right: 9rem; */
+    padding: 9rem;
 }
 
-.carousel-item h2
+.carousel-item h4
 {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     color: white;
 }
 
-.carousel-item p
+.carousel-item h5
 {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     color: white;
 }
 /* container 12 */
 
 .cont12
 {
-    height: 15vh;
+    padding: 2rem;
     background-color: #ff4c68;
     color: white;
 }
 
-.cont12i
-{
-    padding: 2rem;
-    padding-left: 4rem;
-    padding-right: 5rem;
-}
-
-.te
-{
-    float: left;
-}
-
 .dis
 {
-    float: right;
-    
+    margin-top: 2rem;
+}
+
+.co
+{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+   
 }
 
 /* footer section */
@@ -388,4 +410,9 @@ hr
 .social-icons:hover
 {
     color: #ff4c68;
+}
+
+.com
+{
+    padding: 0.5rem;
 }
