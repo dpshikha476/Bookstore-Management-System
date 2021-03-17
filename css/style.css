@@ -197,8 +197,8 @@ hr
 {
     background-color: #ff4c68;
     color: white;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
 }
 
 .subs
@@ -212,7 +212,7 @@ hr
 
 .fb
 {
-    margin-top: 12rem;
+    margin-top: 8rem;
 }
 
 .input
