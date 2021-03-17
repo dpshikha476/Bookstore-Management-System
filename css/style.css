@@ -1,15 +1,61 @@
 
 /* navbar */
 
-.navi
-{
-    font-size: 1.2rem;
+
+.navbar{
+    position: fixed;
+    background-color: rgb(15, 14, 14);
+    
+} 
+
+.navbar .navbar-dark .navbar-toggler{
+    border: none;
 }
 
-.curr
-{
+
+.navbar .navbar-brand {color: #fff;}
+
+.navbar .navbar-nav .nav-item {padding: 0 12px;}
+
+
+
+.navbar .navbar-nav > a:hover, 
+.navbar .navbar-nav .active > a {
     color: #ff4c68;
 }
+
+@media only screen and (min-width: 768px){
+    .navbar .navbar-nav li {
+        display: inline-block;
+    }
+    .navbar .navbar-nav li a {
+        display: inline-block;
+    }
+    .navbar .navbar-nav .nav-item>.nav-link:hover {
+        color: #fff;
+        transition: 0.35s;
+    }
+    .navbar .navbar-nav .nav-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition:all 0.35s ease;
+    }
+    .navbar .navbar-nav .active>.nav-link::after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+    } 
+    .navbar .navbar-nav .nav-link:hover::after{
+        width: 100%;
+        transition:all 0.35s ease;
+    }
+}
+
 
 .social
 {
@@ -23,19 +69,8 @@
     color: #ff4c68;
 }
 
-/* container 1 */
 
-.cont
-{
-    height: 85vh;
-    margin-top: 30px;
-    background-image: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background.png");
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* common */
 
 .main-heading
 {
@@ -106,6 +141,23 @@ hr
     color: #252525;
 }
 
+
+
+/* container 1 */
+
+.cont
+{
+    height: 85vh;
+    overflow: hidden;
+    background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background.png") fixed;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* container 2 */
 
 .cont2
@@ -145,7 +197,8 @@ hr
 {
     background-color: #ff4c68;
     color: white;
-    padding: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .subs
@@ -153,7 +206,15 @@ hr
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
+    
 }
+
+.fb
+{
+    margin-top: 12rem;
+}
+
 .input
 {
     width: 18rem;
@@ -177,6 +238,21 @@ hr
     color: #252525;
 }
 
+@media only screen and (max-width: 990px)
+{
+
+    .fb
+    {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .cont3
+    {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
 /* container 4 */
 .cont4
 {
@@ -195,7 +271,8 @@ hr
     /* height: 70vh; */
     margin-top: 5rem;
     padding: 4rem;
-    background-image: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)),url("../assests/background3.png");
+    overflow: hidden;
+    background: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)),url("../assests/background3.png") fixed;
     color: white;
     background-size: cover;
     text-align: center;
@@ -212,12 +289,15 @@ hr
 .cont6
 {
     color: white;
-    padding-top: 5rem;
+    /* padding-top: 5rem;
     padding-bottom: 5rem;
     padding-left: 7rem;
-    padding-right: 7rem;
+    padding-right: 7rem; */
     background-color: #ff4c68;
+    
 }
+
+
 
 .cardo
 {
@@ -238,7 +318,8 @@ hr
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 7rem;
-    background-image:linear-gradient(rgba(7, 6, 6, 0.5),rgba(7, 6, 6, 0.5)), url("../assests/background2.png");
+    overflow: hidden;
+    background:linear-gradient(rgba(7, 6, 6, 0.5),rgba(7, 6, 6, 0.5)), url("../assests/background2.png") fixed;
     color: white;
     background-position-y: bottom;
     background-size: cover;
@@ -305,6 +386,14 @@ hr
     padding-bottom: 5rem;
 }
 
+@media only screen and (max-width: 990px)
+{
+    .fbe
+    {
+        text-align: center;
+    }
+}
+
 /* container 10 */
 
 .cont10
@@ -323,30 +412,24 @@ hr
 {
     background-image: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)), url("../assests/background4.png");
     background-size: cover;
-    padding: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     text-align: center;
 }
 
-.carousel-item
-{
-    /* padding-top: 4rem;
-    padding-bottom: 5rem;
-    padding-left: 9rem;
-    padding-right: 9rem; */
-    padding: 9rem;
+#testimonials{
+   
+    text-align: center;
+   
 }
 
-.carousel-item h4
-{
-    /* font-size: 1.5rem; */
-    color: white;
+.carousel-item{
+    padding: 7% 15%; 
+    color: #fff;
 }
 
-.carousel-item h5
-{
-    /* font-size: 1.5rem; */
-    color: white;
-}
+
+
 /* container 12 */
 
 .cont12
