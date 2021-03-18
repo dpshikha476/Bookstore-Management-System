@@ -1,4 +1,5 @@
 
+
 /* navbar */
 
 
@@ -148,14 +149,38 @@ hr
 .cont
 {
     height: 85vh;
-    overflow: hidden;
+    overflow: hidden; 
+    /* animation: animate 16s ease-in-out infinite; */  
     background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background.png") fixed;
-    background-size: cover;
-    text-align: center;
+    background-size: cover; 
+     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+    
+    /* @keyframes animate{
+    0%,100%{
+        
+        background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background.png") fixed;
+        background-size: cover;
+    }
+    45%{  
+           
+        background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background2.png") fixed;
+        background-size: cover; 
+    }
+    90%{
+       
+        background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background3.png") fixed;
+        background-size: cover; 
+    }
+   
+    
+    } */
+
+
 
 
 /* container 2 */
@@ -193,12 +218,12 @@ hr
 
 /* container 3 */
 
-.cont3
+#cont3
 {
-    background-color: #ff4c68;
+    overflow: hidden;
+    background: linear-gradient(rgba(221, 102, 102, 0.9),rgba(73, 73, 71, 0.856)),url("../assests/background3.png") fixed;
+    /* background-color: #ff4c68; */
     color: white;
-    /* padding-left: 5rem;
-    padding-right: 5rem; */
 }
 
 .subs
@@ -212,7 +237,14 @@ hr
 
 .fb
 {
-    margin-top: 8rem;
+    margin-top: 5rem;
+}
+
+.news
+{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 2rem  2rem  2rem;
 }
 
 .input
@@ -246,10 +278,30 @@ hr
         text-align: center;
         margin-top: 2rem;
     }
-    .cont3
+    .subs
     {
-        padding-left: 0rem;
-        padding-right: 0rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    
+    }
+ 
+    .input
+    {
+    width: 18rem;
+    text-align: center;
+    padding: 0.5rem;
+    }
+
+    .butn-con3
+    {
+        border-radius: 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 0.5rem;
     }
 }
 
@@ -266,13 +318,13 @@ hr
 
 /* container 5 */
 
-.cont5
+#cont5
 {
-    /* height: 70vh; */
+    height: 60vh;
     margin-top: 5rem;
     padding: 4rem;
     overflow: hidden;
-    background: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)),url("../assests/background3.png") fixed;
+    background: linear-gradient(rgba(235, 122, 122, 0.842),rgba(7, 6, 6, 0.3)),url("../assests/background3.png") fixed;
     color: white;
     background-size: cover;
     text-align: center;
@@ -286,18 +338,16 @@ hr
 
 /* container 6 */
 
-.cont6
+#cont6
 {
-    color: white;
-    /* padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 7rem;
-    padding-right: 7rem; */
-    background-color: #ff4c68;
-    
+    background-color: whitesmoke;
+    padding: 5rem;
 }
 
-
+#cont6 .cardo
+{
+    margin: 1rem;
+}
 
 .cardo
 {
@@ -393,6 +443,9 @@ hr
         text-align: center;
     }
 }
+
+
+
 
 /* container 10 */
 
