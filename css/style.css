@@ -1,5 +1,4 @@
 
-
 /* navbar */
 
 
@@ -185,7 +184,7 @@ hr
 
 /* container 2 */
 
-.cont2
+#cont2
 {
     margin-top: 5rem;
 }
@@ -203,7 +202,7 @@ hr
     font-size: 4.2rem;
 }
 
-.cont2 .card
+#cont2 .card
 {
     margin: 2rem;
 }
@@ -215,6 +214,11 @@ hr
     text-align: center;
 }
 
+
+.stars
+{
+    color:#ff4c68;
+}
 
 /* container 3 */
 
@@ -306,12 +310,12 @@ hr
 }
 
 /* container 4 */
-.cont4
+#cont4
 {
     margin-top: 5rem;
 }
 
-.cont4 .card
+#cont4 .card
 {
     margin: 2rem;
 }
@@ -480,6 +484,44 @@ hr
 .cont10 .card
 {
     margin: 2rem;
+}
+
+
+.card .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background-color: rgba(245, 194, 194, 0.8);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+}
+
+.card:hover .cover {
+    opacity: 1
+}
+
+.cont10 .fab
+{
+    font-size: 1.8rem;
+    padding: 0.2rem;
+}
+
+.cont10 .fab:hover
+{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 990px)
+{
+    .card .cover 
+    {
+        height: 80%;
+    }
 }
 
 /* container 11 */
