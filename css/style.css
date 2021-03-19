@@ -340,7 +340,7 @@ hr
 
 #cont6
 {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 5rem;
 }
 
@@ -361,25 +361,48 @@ hr
 }
 
 /* container 7 */
-.cont7
+
+
+#cont7
 {
-    
-    padding-top: 7rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 7rem;
-    overflow: hidden;
-    background:linear-gradient(rgba(7, 6, 6, 0.5),rgba(7, 6, 6, 0.5)), url("../assests/background2.png") fixed;
-    color: white;
-    background-position-y: bottom;
-    background-size: cover;
-    text-align: left;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: whitesmoke;
 }
 
-.content
+#cont7 img
 {
-    /* font-size: 1.8rem; */
-    margin-bottom: 2.5rem;
+   
+    height: 14rem;
+    width:10rem;
+}
+
+#cont7 .bg_1
+{
+    padding: 4rem;
+    background: linear-gradient(rgba(242, 243, 243, 0.9),rgba(242, 243, 243, 0.9)), url("../assests/Book_1.jpg");
+}
+#cont7 .bg_2
+{
+    padding: 4rem;
+    background: linear-gradient(rgba(250, 243, 243, 0.9),rgba(250, 243, 243, 0.9)), url("../assests/Book_2.jpg");
+}
+
+@media only screen and (max-width: 990px)
+{
+    #cont7
+    {
+        padding-top: 4rem;
+        padding-bottom: 4rem; 
+    }
+    #cont7 .bg_1
+    {
+        text-align: center;
+    }
+    #cont7 .bg_2
+    {
+        text-align: center;
+    }
 }
 
 /* container 8 */
