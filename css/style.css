@@ -187,6 +187,13 @@ hr
 #cont2
 {
     margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+
+#cont2 .container
+{
+    margin-bottom: 6rem;
 }
 
 .head
@@ -202,10 +209,7 @@ hr
     font-size: 4.2rem;
 }
 
-#cont2 .card
-{
-    margin: 2rem;
-}
+
 
 .button
 {
@@ -213,6 +217,162 @@ hr
     margin-bottom: 3rem;
     text-align: center;
 }
+
+
+
+#cont2 .i {
+    margin-top: 30px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width:1199px)
+{
+    #cont2  .i .c .more p 
+    {
+        font-size: 0.9rem;
+      margin: 1rem;
+      line-height: 16px
+    }
+
+}
+@media only screen and (max-width:990px)
+{
+    #cont2
+    {
+        text-align: center;
+    }
+    #cont2 .i
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+       
+    }
+    #cont2  .i .c .more p 
+    {
+    padding: 1rem;
+    }
+}
+
+#cont2  .i .c {
+    background: #fff;
+    -webkit-box-shadow: 0 4px 0  #ff4c68;
+    -moz-box-shadow: 0 4px 0  #ff4c68;
+    box-shadow: 0 4px 0  #ff4c68;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 3rem;
+}
+#cont2  .i .c .wrap {
+    position: relative
+}
+
+#cont2 .i .c .wrap img {
+    width: 100%;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease
+}
+
+#cont2 .i .c .wrap .info {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease
+}
+
+#cont2  .i .c .wrap .info .name {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#cont2  .i .c .wrap .info .position {
+    margin: 0;  
+    font-size: 2rem;
+    color: #555659
+}
+
+
+
+
+#cont2 .i .c .more {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease
+}
+
+#cont2  .i .c .more p 
+{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin: 0.8rem;
+    line-height: 18px
+}
+
+#cont2  .auth
+ {
+    margin-top: 2rem;
+ }
+
+#cont2  label 
+{
+     display: block;
+     margin-top: 0.2rem;
+     font-size: 1.2rem;
+     color: gray;
+ }
+
+
+#cont2  .i .c:hover img 
+{
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    -webkit-opacity: 0;
+     opacity: 0.1;
+}
+
+#cont2 .i .c:hover .info {
+    top: 0
+}
+
+#cont2  .i .c:hover .more {
+    bottom: 0
+}
+
+#cont2 .bt {
+    margin-bottom: 2rem;
+     display: block;
+     padding: 5px;
+     background-color: #ff4c68;
+     color: #fff;
+     margin: 10px 0 0;
+     width: 100%;
+     font-size: 13px;
+     border-radius: 2px
+ }
 
 
 .stars
@@ -411,14 +571,25 @@ hr
 
 /* container 8 */
 
-.cont8
+#cont8
 {
     margin-top: 5rem;
 }
 
-.cont8 .card
+#cont8 .card
 {
     margin: 2rem;
+}
+
+@media only screen and (max-width: 990px)
+{
+    #cont8 .card
+    {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
 }
 
 /* container 9 */
