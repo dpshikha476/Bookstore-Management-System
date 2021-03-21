@@ -527,11 +527,6 @@ hr
     padding: 5rem;
 }
 
-#cont6 .cardo
-{
-    margin: 1rem;
-}
-
 .cardo
 {
     background:transparent;
@@ -617,7 +612,7 @@ hr
 }
 
 #cont6 .hovereffect a, .hovereffect p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: rgb(68, 66, 66);
   opacity: 0;
   filter: alpha(opacity=0);
@@ -634,15 +629,34 @@ hr
   transform: translate3d(0,0,0);
 }
 
+
+
+
 @media only screen and (max-width: 990px)
 {
 
-#cont6 .hovereffect a, .hovereffect p
-{
-    font-size: 1.1rem;
-}
+    #cont6 .hovereffect .overlay
+    {
+        padding: 120px 30px;
+    }
+
+    #cont6 .hovereffect a, .hovereffect p
+    {
+        font-size: 1.1rem;
+    }
 
 }
+
+
+@media only screen and (max-width:575px)
+{
+    #cont6 .hovereffect .overlay
+    {
+        padding: 50px 20px;
+    }
+}
+
+
 
 /* container 7 */
 
