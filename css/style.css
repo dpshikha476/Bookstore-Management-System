@@ -221,9 +221,10 @@ hr
 
 
 #cont2 .i {
-    margin-top: 30px;
+    /* margin-top: 30px;
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 1rem; */
+    margin: 0 auto 3rem;
 }
 
 @media only screen and (max-width:1199px)
@@ -231,11 +232,14 @@ hr
     #cont2  .i .c .more p 
     {
         font-size: 0.9rem;
-      margin: 1rem;
+      /* margin: 1rem; */
+      margin: 30px auto 3rem;
       line-height: 16px
     }
 
 }
+
+
 @media only screen and (max-width:990px)
 {
     #cont2
@@ -244,9 +248,10 @@ hr
     }
     #cont2 .i
     {
-        margin-left: 4rem;
+        margin: 0 auto 3rem;
+        /* margin-left: 4rem;
         margin-right: 4rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem; */
        
     }
     #cont2  .i .c .more p 
@@ -254,6 +259,19 @@ hr
     padding: 1rem;
     }
 }
+
+@media only screen and (max-width:575px)
+{
+    #cont2 .i
+    {
+        margin: 0 4rem 3rem;
+        /* margin-left: 4rem;
+        margin-right: 4rem;
+        margin-bottom: 1rem; */
+       
+    }
+}
+
 
 #cont2  .i .c {
     background: #fff;
@@ -616,6 +634,16 @@ hr
   transform: translate3d(0,0,0);
 }
 
+@media only screen and (max-width: 990px)
+{
+
+#cont6 .hovereffect a, .hovereffect p
+{
+    font-size: 1.1rem;
+}
+
+}
+
 /* container 7 */
 
 
@@ -679,8 +707,8 @@ hr
     {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        margin-left: 4rem;
-        margin-right: 4rem;
+        /* margin-left: 4rem;
+        margin-right: 4rem; */
     }
 }
 
