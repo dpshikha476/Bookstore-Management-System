@@ -117,13 +117,14 @@ hr
     font-weight: bold;
     padding-left: 1rem;
     padding-right: 1rem;
+    border: #2e2e2e solid;
 }
 .but:hover
 {
     background: transparent;
     font-weight: bold;
-    border: #252525 solid;
-    color: #252525;
+    border: #2e2e2e solid;
+    color: #2e2e2e;
 }
 
 .butn
@@ -132,6 +133,7 @@ hr
     font-weight: bold;
     padding-left: 1rem;
     padding-right: 1rem;
+    border: #252525 solid;
 }
 .butn:hover
 {
@@ -440,10 +442,11 @@ hr
 .butn-con3
 {
     border-radius: 0;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     padding-left: 1rem;
     padding-right: 1rem;
+    border: #252525 solid;
 }
 .butn-con3:hover
 {
@@ -629,7 +632,17 @@ hr
   transform: translate3d(0,0,0);
 }
 
-
+@media only screen and (max-width: 1024px)
+{
+    #cont6 .hovereffect .overlay
+    {
+        padding: 25px 10px;
+    }
+    #cont6 .hovereffect a, .hovereffect p
+    {
+        font-size: 0.8rem;
+    }
+}
 
 
 @media only screen and (max-width: 990px)
@@ -743,10 +756,12 @@ hr
 }
 .smallbook
 {
+    
     height: 6rem;
     width: 4rem;
     box-shadow: 3px 3px rgb(156, 156, 156);
 }
+
 
 .highlights
 {
@@ -768,6 +783,8 @@ hr
 {
     padding-bottom: 5rem;
 }
+
+
 
 @media only screen and (max-width: 990px)
 {
@@ -922,13 +939,38 @@ hr
 {
     color:#fff;
 }
+
+
+
+@media only screen and (max-width: 1024px)
+{
+    .cont10 .box1 .title
+    {
+        font-size: 14px;
+    }
+    .cont10 .box1 .icon li a
+    {
+        font-size:1rem;
+        height:1rem;
+    }
+}
+
 @media only screen and (max-width:990px)
 {
+    .cont10 .box1 .title
+    {
+        font-size: 18px;
+    }
+    .cont10 .box1 .icon li a
+    {
+        font-size:1.5rem;
+        width: 1.5rem;
+        height:1.5rem;
+        line-height:1.2rem;
+    }
     .cont10 .box1
     {
-        margin-bottom:2rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin: 0 1rem 2rem;
     }
 }
 
@@ -996,7 +1038,7 @@ hr
 
 /* footer section */
 
-.footer
+#footer
 {
     background-color: whitesmoke;
     padding-top: 5rem;
@@ -1038,4 +1080,25 @@ hr
 .com
 {
     padding: 0.5rem;
+}
+
+#footer .colm
+{
+    padding-right: 3rem;
+}
+
+
+
+
+
+@media only screen and (max-width:1024px)
+{
+    #footer .colm
+    {
+    padding-right: 1rem;
+    }
+    #footer .sml
+    {
+    margin-right: 0.2rem;
+    }
 }
