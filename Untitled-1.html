@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    <title>Document</title>
+
+<style>
+
+#cont8 .cardo
+{
+  border: none;
+  /* margin: 2rem; */
+}
+
+#cont8 .flip 
+{
+    background-color: #fff;
+    perspective: 1000px;
+}
+  
+#cont8 .flip-inner 
+ {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+ 
+  }
+  
+  #cont8 .flip:hover .flip-inner 
+  {
+    transform: rotateY(180deg);
+  }
+  
+  #cont8 .flip-front, #cont8  .flip-back 
+{
+    /* position: absolute; */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+
+
+#cont8 .flip-back 
+ {
+  position: relative;
+  border: 1px solid rgb(165, 164, 164);
+   padding: 0.5rem;
+    background-color: rgba(245, 245, 245, 0.541);
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+  #cont8 h6
+  {
+    color: rgb(102, 100, 100);
+  }
+  #cont8 .Rev
+  {
+    color: rgb(109, 107, 107);
+  }
+  
+  #cont8 p
+  {
+    color: rgb(53, 51, 51);
+    line-height: 1.2;
+  }
+
+  #cont8 .btn
+  {
+    display: block;
+    background-color: #ff4c68;
+    border:  #ff4c68 solid;
+    color: white;
+    font-weight: bold;
+  }
+
+  #cont8 .btn:hover
+  {
+    display: block;
+    background-color: #fff;
+    border: #ff4c68 solid;
+    color: #ff4c68;
+  }
+
+
+</style>
+
+</head>
+
+<body>
+    
+  <section id="cont8"> 
+       
+       
+    <div class="container">
+      <h1 class="head"><span>Picked</span> by Readers</h1> 
+
+        <div class="card-group">
+          <div class="row"> 
+
+            <div class="col-lg-2 col-md-6 col-sm-12 flip">
+
+            <div class="card text-center cardo">
+              <div class="flip-inner">
+                <div class="flip-front">
+
+              <img class="card-img-top" src="assests/book2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+
+              </div>
+            </div>
+
+            <div class="flip-back">
+
+                <h5>Hosting</h5>
+                <hr>
+                <h6>Author</h6>
+                <p class="Rev">46,789 Reviews</p>
+                <p>
+                  <span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i></span> <i class="fas fa-star"></i>
+                </p>
+                <p> quasi ipsam fuga aut  magni est mollitia voluptas error voluptas.... </p> 
+                <a href="#" class="btn">View</a>
+ 
+
+            </div> 
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12 flip">
+
+            <div class="card text-center cardo">
+              <div class="flip-inner">
+                <div class="flip-front">
+
+              <img class="card-img-top" src="assests/books7.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+
+              </div>
+            </div>
+
+            <div class="flip-back">
+
+                <h5>Hosting</h5>
+                <hr>
+                <h6>Author</h6>
+                <p class="Rev">46,789 Reviews</p>
+                <p>
+                  <span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i></span> <i class="fas fa-star"></i>
+                </p>
+                <p> quasi ipsam fuga aut  magni est mollitia voluptas error voluptas.... </p> 
+                <a href="#" class="btn">View</a>
+ 
+
+            </div> 
+               
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-2 col-md-6 col-sm-12 flip">
+
+            <div class="card text-center cardo">
+              <div class="flip-inner">
+                <div class="flip-front">
+
+              <img class="card-img-top" src="assests/book12.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+
+              </div>
+            </div>
+
+            <div class="flip-back">
+
+                <h5>Hosting</h5>
+                <hr>
+                <h6>Author</h6>
+                <p class="Rev">46,789 Reviews</p>
+                <p>
+                  <span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i></span> <i class="fas fa-star"></i>
+                </p>
+                <p> quasi ipsam fuga aut  magni est mollitia voluptas error voluptas.... </p> 
+                <a href="#" class="btn">View</a>
+ 
+
+            </div> 
+               
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-2 col-md-6 col-sm-12 flip">
+
+            <div class="card text-center cardo">
+              <div class="flip-inner">
+                <div class="flip-front">
+
+              <img class="card-img-top" src="assests/book4.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+
+              </div>
+            </div>
+
+            <div class="flip-back">
+
+                <h5>Hosting</h5>
+                <hr>
+                <h6>Author</h6>
+                <p class="Rev">46,789 Reviews</p>
+                <p>
+                  <span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i></span> <i class="fas fa-star"></i>
+                </p>
+                <p> quasi ipsam fuga aut  magni est mollitia voluptas error voluptas.... </p> 
+                <a href="#" class="btn">View</a>
+ 
+
+            </div> 
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12 flip">
+
+            <div class="card text-center cardo">
+              <div class="flip-inner">
+                <div class="flip-front">
+
+              <img class="card-img-top" src="assests/book5.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+
+              </div>
+            </div>
+
+            <div class="flip-back">
+
+                <h5>Hosting</h5>
+                <hr>
+                <h6>Author</h6>
+                <p class="Rev">46,789 Reviews</p>
+                <p>
+                  <span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i></span> <i class="fas fa-star"></i>
+                </p>
+                <p> quasi ipsam fuga aut  magni est mollitia voluptas error voluptas.... </p> 
+                <a href="#" class="btn">View</a>
+ 
+
+            </div> 
+               
+              </div>
+            </div>
+          </div>
+
+
+          </div>
+
+          </div> 
+
+         
+    </div>
+  </section>
+
+   
+</body>
+
+</html>
+
+
+<!-- <div class="card-group">
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/book2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span> <i class="fas fa-star"></i></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/book4.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span><i class="fas fa-star"></i> <i class="fas fa-star"></i></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/books7.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/book12.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span><i class="fas fa-star"></i> <i class="fas fa-star"></i></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/book5.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span> <i class="fas fa-star"></i></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <!-- <div class="card-group">
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/i1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">*****</p>
+                   
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/i2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">*****</p>
+                   
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/i3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">*****</p>
+                    
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/i7.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">*****</p>
+                
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/i6.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"> *****</p>
+                   
+                  </div>
+                </div>
+              </div>  -->
+
+
+
+
+
+
+
+
+              <!-- <div class="card-group">
+                <div class="card text-center cardo">
+                          <div class="box">
+                          <img class="card-img-top" src="assests/book2.jpg" alt="Card image cap">
+                          <div class="box-content">
+                            <div class="inner-content">
+                              <h5 class="post">Author</h5>
+                                <h3 class="title">Miranda Roy</h3>
+                                <h6 class="post">
+                                  <span class="stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> 
+                                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                                </h6>
+                                <p > This is antent is a little bit longer. This is antent is a little bit longer. This is antent is a little bit longer.</p>
+                            </div>
+                        </div>
+                        </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                         
+                   
+                  </div>
+                </div>
+    
+    
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/book4.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text content.</p>
+                   
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/books7.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supp content.</p>
+                    
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/book12.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supportingl content.</p>
+                
+                  </div>
+                </div>
+                <div class="card text-center cardo">
+                  <img class="card-img-top" src="assests/book5.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"> This card has even longer  action.</p>
+                   
+                  </div>
+                </div>
+              </div>  -->
+
+
+<!-- 
+              .box{
+                background: linear-gradient(180deg, #f597a5 0%, #ff4c68 100%);
+                overflow: hidden;
+            }
+            .box:before,
+            .box:after,
+            .box .box-content:before,
+            .box .box-content:after{
+                content: "";
+                background: #fff;
+                width: 10%;
+                height: 0.1rem;
+                transform: scaleX(0);
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                z-index: 1;
+                transition: all 600ms ease;
+            }
+            .box:after{
+                top: auto;
+                bottom: 15px;
+                left: auto;
+                right: 15px;
+            }
+            .box .box-content:before,
+            .box .box-content:after{
+                width: 0.1rem;
+                height: 5%;
+                transform: scaleY(0);
+            }
+            .box .box-content:after{
+                left: auto;
+                right: 15px;
+                top: auto;
+                bottom: 15px;
+            }
+            .box:hover:before,
+            .box:hover:after,
+            .box:hover .box-content:before,
+            .box:hover .box-content:after{
+                transform: scale(1);
+            }
+            .box img{
+                transform: scale3d(1.1, 1.1, 1);
+                transition: all 0.25s linear;
+            }
+            .box:hover img{
+                opacity: 0.25;
+                transform: scale(1.25);
+            }
+            .box .inner-content{
+              padding-top: 2rem;
+                color: #fff;
+                text-align: center;
+                width: 70%;
+                opacity: 0;
+                transform: translateX(-50%) translateY(-50%);
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transition: all 600ms ease;
+            }
+            .box:hover .inner-content{
+                opacity: 1;
+                top: 30%;
+            }
+            .box .title{
+                font-size: 1rem;
+                font-weight: 800;
+                text-transform: uppercase;
+                margin: 0 0 3px;
+            }
+            .box.post{
+                font-size: 0.5rem;
+                margin: 0 0 12px;
+                display: block;
+            }
+            
+            
+            
+            @media only screen and (max-width:990px){
+              .box { margin: 0 0 30px; }
+            }
+             -->

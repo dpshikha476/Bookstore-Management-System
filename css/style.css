@@ -251,9 +251,6 @@ hr
     #cont2 .i
     {
         margin: 0 auto 3rem;
-        /* margin-left: 4rem;
-        margin-right: 4rem;
-        margin-bottom: 1rem; */
        
     }
     #cont2  .i .c .more p 
@@ -267,10 +264,7 @@ hr
     #cont2 .i
     {
         margin: 0 4rem 3rem;
-        /* margin-left: 4rem;
-        margin-right: 4rem;
-        margin-bottom: 1rem; */
-       
+  
     }
 }
 
@@ -974,6 +968,20 @@ hr
     }
 }
 
+@media only screen and (max-width:575px)
+{
+    .cont10 .box1 .title
+    {
+        font-size: 18px;
+    }
+    .cont10 .box1 .icon li a
+    {
+        font-size:1.5rem;
+        width: 1.5rem;
+        height:1.5rem;
+        line-height:1.2rem;
+    }
+}
 
 
 /* container 11 */
