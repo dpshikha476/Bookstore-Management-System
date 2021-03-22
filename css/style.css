@@ -143,11 +143,37 @@ hr
     color: #252525;
 }
 
+.head
+{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
 
+.head span
+{
+    font-size: 4.2rem;
+}
+
+@media only screen and (max-width:575px)
+{
+    .head
+    {
+        font-size: 3rem;
+    }
+
+    .head span
+    {
+        display: block;
+        font-size: 3.7rem;
+        margin-bottom: 0.5rem;
+    }
+}
 
 /* container 1 */
 
-.cont
+#cont1
 {
     height: 85vh;
     overflow: hidden; 
@@ -158,6 +184,21 @@ hr
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width:575px)
+{
+    #cont1 span
+    {
+        font-size: 3.8rem;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    #cont1 .main-heading
+    {
+        font-size: 3.5rem;
+    }
+
 }
 
     
@@ -181,7 +222,7 @@ hr
     
     } */
 
-
+   
 
 
 /* container 2 */
@@ -198,18 +239,7 @@ hr
     margin-bottom: 6rem;
 }
 
-.head
-{
-  font-size: 3.5rem;
-  font-weight: bold;
-  margin-bottom: 3rem;
-  text-align: center;
-}
 
-.head span
-{
-    font-size: 4.2rem;
-}
 
 
 
@@ -400,7 +430,7 @@ hr
 #cont3
 {
     overflow: hidden;
-    background: linear-gradient(rgba(221, 102, 102, 0.9),rgba(73, 73, 71, 0.856)),url("../assests/background3.png") fixed;
+    background: linear-gradient(rgba(221, 102, 102, 0.9),rgba(73, 73, 71, 0.856)),url("../assests/background4\ \(4\).png") fixed;
     /* background-color: #ff4c68; */
     color: white;
 }
@@ -504,7 +534,7 @@ hr
     margin-top: 5rem;
     padding: 4rem;
     overflow: hidden;
-    background: linear-gradient(rgba(235, 122, 122, 0.842),rgba(7, 6, 6, 0.3)),url("../assests/background3.png") fixed;
+    background: linear-gradient(rgba(235, 122, 122, 0.842),rgba(7, 6, 6, 0.3)),url("../assests/b.jpg") fixed;
     color: white;
     background-size: cover;
     text-align: center;
@@ -994,8 +1024,7 @@ hr
 
 .cont11
 {
-    background-image: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)), url("../assests/background4.png");
-    background-size: cover;
+    background: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)), url("../assests/background2.png") fixed;
     padding-top: 4rem;
     padding-bottom: 4rem;
     text-align: center;
