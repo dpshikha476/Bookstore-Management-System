@@ -521,7 +521,8 @@ hr
 #cont6
 {
     background-color: white;
-    padding: 5rem;
+    margin: 5rem auto 5rem;
+     
 }
 
 .cardo
@@ -660,6 +661,11 @@ hr
     #cont6 .hovereffect .overlay
     {
         padding: 50px 20px;
+    }
+
+    #cont6 .cardo
+    {
+        margin: 0 4rem 0;
     }
 }
 
@@ -1085,7 +1091,7 @@ hr
     color: #ff4c68;
 }
 
-.com
+#footer .com
 {
     padding: 0.5rem;
 }
@@ -1108,5 +1114,13 @@ hr
     #footer .sml
     {
     margin-right: 0.2rem;
+    }
+}
+
+@media only screen and (max-width:575px)
+{
+    .com
+    {
+        padding-top: 1.5rem;
     }
 }
