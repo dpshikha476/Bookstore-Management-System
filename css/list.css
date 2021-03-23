@@ -1,0 +1,274 @@
+/******************************************** common *********************************************/
+
+.main-heading
+{
+    margin-bottom: 3rem;
+    font-size: 4.8rem; 
+    font-weight: bold;
+    color: white;
+}
+
+span
+{
+    font-family: 'Akaya Telivigala', cursive;
+    margin-bottom: 2rem;
+}
+
+.logo
+{
+    font-family: 'Fascinate', cursive;
+    
+}
+.logo span
+{
+    font-family: 'Fascinate', cursive;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Acme', sans-serif;
+}
+
+hr
+{
+    height:1px;
+    border-width:0;
+    color: gray ;
+    background-color: gray  ;
+}
+
+.but
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: #2e2e2e solid;
+}
+.but:hover
+{
+    background: transparent;
+    font-weight: bold;
+    border: #2e2e2e solid;
+    color: #2e2e2e;
+}
+
+.butn
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: #252525 solid;
+}
+.butn:hover
+{
+    background-color: white;
+    font-weight: bold;
+    border: #252525 solid;
+    color: #252525;
+}
+
+.head
+{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.head span
+{
+    font-size: 4.2rem;
+}
+
+@media only screen and (max-width:575px)
+{
+    .head
+    {
+        font-size: 3rem;
+    }
+
+    .head span
+    {
+        display: block;
+        font-size: 3.7rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+
+
+
+/************************************************************* navbar ****************************************************************/
+
+
+.navbar{
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 4px solid #2e2e2e;
+} 
+
+.navbar .navbar-dark .navbar-toggler{
+    border: none;
+}
+
+
+.navbar .navbar-brand {color: #000;}
+
+.navbar .navbar-nav .nav-item {padding: 0 12px;}
+
+
+
+.navbar .navbar-nav > a:hover, 
+.navbar .navbar-nav .active > a {
+    color: #ff4c68;
+}
+
+@media only screen and (min-width: 768px){
+    .navbar .navbar-nav li {
+        display: inline-block;
+    }
+    .navbar .navbar-nav li a {
+        display: inline-block;
+    }
+    .navbar .navbar-nav .nav-item>.nav-link:hover {
+        color: #000;
+        transition: 0.35s;
+    }
+
+
+    .navbar .navbar-nav .nav-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #000;
+        transition:all 0.35s ease;
+    }
+    .navbar .navbar-nav .active>.nav-link::after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #000;
+    } 
+    .navbar .navbar-nav .nav-link:hover::after{
+        width: 100%;
+        transition:all 0.35s ease;
+    }
+}
+
+
+.social
+{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: black;
+}
+
+.social:hover
+{
+    color: #ff4c68;
+}
+
+
+/************************************************************Container 1 ******************************************************/
+
+#conta1
+{
+    height: 85vh;
+    overflow: hidden; 
+    background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background-page2.jfif") fixed;
+    background-size: cover; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/************************************************************footer section ******************************************************/
+
+#footer
+{
+    background-color: whitesmoke;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.footer-container
+{
+    margin-bottom: 4rem;
+}
+
+.footer-padding
+{
+    padding-right: 4rem;
+}
+
+.quick a
+{
+    color: black;
+}
+
+.quick a:hover
+{
+    color: #ff4c68;
+}
+
+.social-icons
+{
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    color: rgba(7, 6, 6, 0.6);
+}
+
+.social-icons:hover
+{
+    color: #ff4c68;
+}
+
+#footer .com
+{
+    padding: 0.5rem;
+}
+
+#footer .colm
+{
+    padding-right: 3rem;
+}
+
+
+.smallbook
+{
+    
+    height: 6rem;
+    width: 4rem;
+    box-shadow: 3px 3px rgb(156, 156, 156);
+}
+
+
+@media only screen and (max-width:1024px)
+{
+    #footer .colm
+    {
+    padding-right: 1rem;
+    }
+    #footer .sml
+    {
+    margin-right: 0.2rem;
+    }
+}
+
+@media only screen and (max-width:575px)
+{
+    .com
+    {
+        padding-top: 1.5rem;
+    }
+}
