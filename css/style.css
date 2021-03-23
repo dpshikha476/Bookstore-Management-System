@@ -675,7 +675,7 @@ hr
 
     #cont6 .hovereffect .overlay
     {
-        padding: 120px 30px;
+        padding: 80px 30px;
     }
 
     #cont6 .hovereffect a, .hovereffect p
@@ -1006,6 +1006,10 @@ hr
 
 @media only screen and (max-width:575px)
 {
+    .cont10 .box1
+    {
+        margin: 0 1rem 2rem;
+    }
     .cont10 .box1 .title
     {
         font-size: 18px;
@@ -1017,6 +1021,7 @@ hr
         height:1.5rem;
         line-height:1.2rem;
     }
+
 }
 
 
