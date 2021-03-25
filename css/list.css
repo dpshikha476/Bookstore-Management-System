@@ -2,8 +2,7 @@
 
 .main-heading
 {
-    margin-bottom: 3rem;
-    font-size: 4.8rem; 
+    font-size: 4.2rem; 
     font-weight: bold;
     color: white;
 }
@@ -104,6 +103,86 @@ hr
 /************************************************************* navbar ****************************************************************/
 
 
+.brank
+{
+    padding: 1rem 4rem 1rem;
+    background-color: #fff;
+    border-bottom: 4px solid #2e2e2e;
+}
+.brank h5
+{
+    color: #2e2e2e;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+#navbar .l
+{
+    display: block;
+    justify-content: left;
+    align-self: center;
+  
+    
+}
+
+#navbar .chotu
+{
+    margin-top: 8rem;
+}
+
+.navbar-brand 
+{
+    color: #000;
+    font-size: 2rem;
+}
+.navbar-brand:hover
+{
+    color: #000;
+} 
+
+.navbar-nav .nav-item 
+{
+    padding: 0 12px;
+}
+
+@media only screen and (min-width: 768px){
+    #navbar .navbar-nav li {
+        display: inline-block;
+    }
+    #navbar .navbar-nav li a {
+        display: inline-block;
+    }
+    #navbar .navbar-nav .nav-item>.nav-link:hover {
+        color: #fff;
+        transition: 0.35s;
+    }
+
+    #navbar .navbar-nav .nav-item>.nav-link .active:hover {
+        color: #fff;
+        transition: 0.35s;
+    }
+
+    #navbar .navbar-nav .nav-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition:all 0.35s ease;
+    }
+    #navbar .navbar-nav .active>.nav-link::after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+    } 
+    #navbar .navbar-nav .nav-link:hover::after{
+        width: 100%;
+        transition:all 0.35s ease;
+    }
+}
+
+/* 
 .navbar{
     position: fixed;
     background-color: #fff;
@@ -117,7 +196,7 @@ hr
 
 .navbar .navbar-brand {color: #000;}
 
-.navbar .navbar-nav .nav-item {padding: 0 12px;}
+.navbar 
 
 
 
@@ -172,7 +251,7 @@ hr
 {
     color: #ff4c68;
 }
-
+ */
 
 
 
@@ -235,7 +314,7 @@ hr
 
 #conta1
 {
-    height: 85vh;
+    height: 65vh;
     overflow: hidden; 
     background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background-page2.jfif") fixed;
     background-size: cover; 
@@ -244,6 +323,13 @@ hr
     align-items: center;
     justify-content: center;
 }
+
+
+#conta1 span
+{
+    font-size: 4.5rem; 
+}
+
 
 /************************************************************Container 2 ******************************************************/
 
