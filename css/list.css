@@ -192,9 +192,9 @@ hr
 {
     .brank
     {
-    padding: 1rem 2rem 1rem;
-    background-color: #fff;
-    border-bottom: 4px solid #2e2e2e;
+        padding: 1rem 2rem 1rem;
+        background-color: #fff;
+        border-bottom: 4px solid #2e2e2e;
     }
 
     .brank a
@@ -210,6 +210,14 @@ hr
     {
         font: 0.6rem sans-serif;
     }
+
+    #navbar .chotu
+    {
+        margin-top: 1rem;
+    }
+    
+  
+
 }
 /* 
 .navbar{
@@ -341,6 +349,7 @@ hr
 
 /************************************************************Container 1 ******************************************************/
 
+
 #conta1
 {
     height: 65vh;
@@ -362,10 +371,86 @@ hr
 
 /************************************************************Container 2 ******************************************************/
 
+
 #conta2
 {
     margin: 7rem 0 7rem;
 }
+
+
+/***************** categories *************/
+
+#conta2 .cate
+{
+    margin: 1rem 0 4rem 0 ;
+}
+
+#conta2 .cat-h
+{
+    display: inline-block;
+    padding: 1rem 4.5rem 1rem 4.5rem;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#conta2 .cat-m
+{
+    padding: 2rem 0 0 1.5rem; 
+}
+
+#conta2 .cat-l
+{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+#conta2 .cat-a .fas
+{
+    font-size: 0.9rem;
+    padding-right: 0.5rem;
+    color: crimson;
+}
+#conta2 .cat-a
+{
+    display: block;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#conta2 .cat-a:hover
+{
+    color: crimson;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+
+@media only screen and (max-width:990px)
+{
+    #conta2 .cate
+    {
+        padding: 0 1rem 0;
+    }
+    #conta2 .cat-h
+    {
+        display: inline-block;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width:575px)
+{
+    #conta2 .cat-h
+    {
+        display: block;
+        padding: 1rem 4.5rem 1rem 4.5rem;
+    }
+
+}
+
+
+/***************** Books *************/
 
 #conta2 h6
 {
@@ -486,6 +571,13 @@ hr
   {
     margin-bottom:30px
   }
+  #conta2 .button
+  {
+      padding-left: 0.4rem;
+      padding-right: 0.4rem;
+      font-size: 0.7rem;
+  }
+
 }
 
 @media only screen and (max-width:575px)
@@ -498,6 +590,13 @@ hr
     {   
         display:block;
         font-size:1.8rem;
+    }
+
+    #conta2 .button
+    {
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        font-size: 0.7rem;
     }
 }
 
