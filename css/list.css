@@ -115,6 +115,11 @@ hr
     font-family: 'Akaya Telivigala', cursive;
 }
 
+.brank h4
+{
+    font: 1.5rem sans-serif;
+}
+
 #navbar .l
 {
     display: block;
@@ -182,6 +187,30 @@ hr
     }
 }
 
+
+@media only screen and (max-width: 575px)
+{
+    .brank
+    {
+    padding: 1rem 2rem 1rem;
+    background-color: #fff;
+    border-bottom: 4px solid #2e2e2e;
+    }
+
+    .brank a
+    {
+        font-size: 1rem;;
+    }
+    .brank h5
+    {
+        font-size: 0.7rem;
+    }
+
+    .brank h4
+    {
+        font: 0.6rem sans-serif;
+    }
+}
 /* 
 .navbar{
     position: fixed;
