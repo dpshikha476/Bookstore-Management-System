@@ -407,7 +407,55 @@ border-radius:0;
     border-radius:0;
     transition: background 0.20s linear;
   }
+
+
+
+  /************************************************************Container 2 ******************************************************/
+
+  #conta3
+  {
+      margin: 6rem 0 4rem;
+  }
  
+
+  #conta3 .card-group
+  {
+      margin-top: 4rem;
+  }
+
+  
+  #conta3 .cardo
+  {
+      background: transparent;
+      border: none;
+  }
+
+  .stars
+    {
+        color:#ff4c68;
+    }
+
+    #conta3 .underline
+    {
+        height: 3px;
+        width: 3rem;
+        float:left;
+        background: crimson;
+    }
+
+@media only screen and (max-width:575px)
+{
+    #conta3
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;;
+    }
+
+    #conta3 .card-body
+    {
+        font-size: 0.8rem;
+    }
+}
 
 /************************************************************footer section ******************************************************/
 
