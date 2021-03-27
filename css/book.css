@@ -273,282 +273,141 @@ hr
     }
 }
 
+/************************************************************container 1 ******************************************************/
 
-
-/************************************************************Container 1 ******************************************************/
-
-
-#conta1
+#conta1 
 {
-    height: 65vh;
-    overflow: hidden; 
-    background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background-page2.jfif") fixed;
-    background-size: cover; 
+    padding: 7rem 0 7rem;
+    background-color: whitesmoke;
+}
+
+#conta1 .one-book
+{
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-#conta1 .main-heading
+#conta1 .one-book img
 {
-    font-size: 4.2rem; 
+    height: 25rem;
+    width: 17rem;
 }
 
-#conta1 span
+#conta1 .book-details .author
 {
-    font-size: 5rem; 
-    display: block;
-    margin-bottom: 0.5rem;
+    font-family: 'Satisfy', cursive;
+    color: rgb(70, 68, 68);
 }
+
+#conta1 .book-details .stars
+{
+    color: crimson;
+}
+
+#conta1 .book-details .price
+{
+    color: crimson;
+}
+
+#conta1 .book-details .btn
+{
+    margin: 1rem 0 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: crimson;
+    border: crimson 3px solid;
+}
+#conta1 .book-details .btn:hover
+{
+    color: crimson;
+    background-color: white;
+    border: crimson 3px solid;
+}
+
+#conta1 .book-details .description
+{
+    color: rgb(70, 68, 68);
+}
+
+#conta1 .book-details .categories
+{
+    color: rgb(70, 68, 68);
+    font-family: sans-serif;
+}
+#conta1 .book-details .categories span
+{
+    font-family: sans-serif;
+}
+
 
 @media only screen and (max-width:575px)
 {
-
-    #conta1 span
+    #conta1 .book-details
     {
-        display: block;
-        font-size: 4.2rem; 
-    }
-
-    #conta1 .main-heading
-    {
-        font-size: 3.2rem;
+        margin-top: 2rem;
+        padding: 0 2rem 0;
+        text-align: center;
     }
 }
+
+
+
 
 /************************************************************Container 2 ******************************************************/
 
-
 #conta2
 {
-    margin: 7rem 0 7rem;
+  margin: 4rem 0 4rem;
 }
 
+#conta2 nav > .nav.nav-tabs
+{
 
-/***************** categories *************/
-
-#conta2 .cate
-{
-    margin: 1rem 0 4rem 0 ;
-}
-
-#conta2 .cat-h
-{
-    display: inline-block;
-    padding: 1rem 4.5rem 1rem 4.5rem;
-    text-align: center;
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-#conta2 .cat-m
-{
-    padding: 2rem 0 0 1.5rem; 
-}
-
-#conta2 .cat-l
-{
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-}
-#conta2 .cat-a .fas
-{
-    font-size: 0.9rem;
-    padding-right: 0.5rem;
-    color: crimson;
-}
-#conta2 .cat-a
-{
-    display: block;
-    color: black;
-    text-decoration: none;
-    transition: all 0.3s;
-}
-#conta2 .cat-a:hover
-{
-    color: crimson;
-    margin-left: 10px;
-    transition: all 0.3s;
-}
-
-
-@media only screen and (max-width:990px)
-{
-    #conta2 .cate
-    {
-        padding: 0 1rem 0;
-    }
-    #conta2 .cat-h
-    {
-        display: inline-block;
-        padding: 1rem 2rem 1rem 2rem;
-    }
+border: none;
+color:#fff;
+background: rgb(56, 56, 56);
+border-radius:0;
 
 }
-
-@media only screen and (max-width:575px)
-{
-    #conta2 .cat-h
-    {
-        display: block;
-        padding: 1rem 4.5rem 1rem 4.5rem;
-    }
-
-}
-
-
-/***************** Books *************/
-
-#conta2 h6
-{
-    color: #ff4c68;
-}
-
-#conta2 .button
-{
-    display: block;
-    width: 100%;
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
-    font-size: 0.9rem;
-    border: none;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-}
-
-#conta2 .card
-{
-    margin-bottom: 2rem;
-}
-
-#conta2 .button:hover
-{
-    background-color:crimson;
-}
-
-#conta2 .cardo
-{
-    background: transparent;
-    border: none;
-}
-
-#conta2 .box7
-{
-  position:relative;
-}
-
-#conta2 .box7:after,.box7:before
-{
-  width:120%;
-  height:100%;
-  background:#25090d6e;
-  position:absolute;
-  top:0;
-  left:0;
-  opacity:0;
-  transition:all .5s ease 0s;
-}
-#conta2 .box7:after
-{
-  background:rgba(255,255,255,.3);
-  border:2px solid #3a121893;
-  top:0;
-  left:170%;
-  opacity:1;
-  z-index:1;
-  transform:skewX(45deg);
-  transition:all 1s ease 0s
-}
-#conta2 .box7:hover:before
-{
-  opacity:1
-}
-#conta2 .box7:hover:after
-{
-  left:-170%;
-}
-
-#conta2 .box7 .box-content
-{
-  width:100%;
-  position:absolute;
-  bottom:-100%;
-  left:0;
-  transition:all .5s ease 0s;
-}
-#conta2 .box7:hover .box-content
-{
-  bottom:30%;
-}
-
-
-#conta2 .box7 .icon 
-{
-  display:flex;
-  justify-content: center;
-  align-self: center;
-}
-#conta2 .box7 .icon  a
-{
-  display:block;
-  font-size:2.2rem;
-  color:#fff;
-  margin-right:10px;
-  transition:all .5s ease 0s;
-}
-
-#conta2 .box7 .icon a:hover
-{
-  transform:rotate(360deg)
-}
-
-#conta2 .box7:after,.box7:before
-{
-  content:""
-}
-#conta2 .icon  a,.box7
-{
-  overflow:hidden;
-}
-
-@media only screen and (max-width:990px)
-{
-  #conta2 .box
+  #conta2 nav > div a.nav-item.nav-link,
+  nav > div a.nav-item.nav-link.active
   {
-    margin-bottom:30px
-  }
-  #conta2 .button
-  {
-      padding-left: 0.4rem;
-      padding-right: 0.4rem;
-      font-size: 0.7rem;
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background: rgb(56, 56, 56);
+    border-radius:0;
   }
 
-}
+  #conta2 nav > div a.nav-item.nav-link.active:after
+  {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: crimson ;
+  }
+  #conta2  .tab-content
+  {
 
-@media only screen and (max-width:575px)
-{
-    #conta2
-    {
-        margin: 4rem 1.5rem 4rem;
-    }
-    #conta2 .box7 .icon  a
-    {   
-        display:block;
-        font-size:1.8rem;
-    }
+    background: white;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid crimson;
+    border-bottom:5px solid crimson;
+    padding:3rem 4rem;
+  }
 
-    #conta2 .button
-    {
-        padding-left: 0.4rem;
-        padding-right: 0.4rem;
-        font-size: 0.7rem;
-    }
-}
-
-
+  #conta2 nav > div a.nav-item.nav-link:hover,
+  nav > div a.nav-item.nav-link:focus
+  {
+  border: none;
+    background: crimson;
+    color:#fff;
+    border-radius:0;
+    transition: background 0.20s linear;
+  }
+ 
 
 /************************************************************footer section ******************************************************/
 
@@ -625,6 +484,14 @@ hr
 
 @media only screen and (max-width:575px)
 {
+    #footer
+    {
+        padding: 0 2rem 0;
+    }
+    #footer .colum
+    {
+        margin-top: 2rem;
+    }
     .com
     {
         padding-top: 1.5rem;
