@@ -273,189 +273,158 @@ hr
     }
 }
 
-/************************************************************container 1 ******************************************************/
+/************************************************************Container 1 ******************************************************/
 
-#conta1 
-{
-    padding: 7rem 0 7rem;
-    background-color: whitesmoke;
-}
 
-#conta1 .one-book
+#conta1
 {
+    height: 65vh;
+    overflow: hidden; 
+    background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background-page2.jfif") fixed;
+    background-size: cover; 
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#conta1 .one-book img
+#conta1 .main-heading
 {
-    height: 25rem;
-    width: 17rem;
-}
-
-#conta1 .book-details .author
-{
-    font-family: 'Satisfy', cursive;
-    color: rgb(70, 68, 68);
-}
-
-#conta1 .book-details .stars
-{
-    color: crimson;
-}
-
-#conta1 .book-details .price
-{
-    color: crimson;
-}
-
-#conta1 .book-details .btn
-{
-    margin: 1rem 0 1.5rem;
-    font-weight: bold;
-    color: white;
-    background-color: crimson;
-    border: crimson 3px solid;
-}
-#conta1 .book-details .btn:hover
-{
-    color: crimson;
-    background-color: white;
-    border: crimson 3px solid;
-}
-
-#conta1 .book-details .description
-{
-    color: rgb(70, 68, 68);
-}
-
-#conta1 .book-details .categories
-{
-    color: rgb(70, 68, 68);
-    font-family: sans-serif;
-}
-#conta1 .book-details .categories span
-{
-    font-family: sans-serif;
+    font-size: 5rem; 
 }
 
 
 @media only screen and (max-width:575px)
 {
-    #conta1 .book-details
+
+
+    #conta1 .main-heading
     {
-        margin-top: 2rem;
-        padding: 0 2rem 0;
+        font-size: 4.2rem;
+    }
+}
+
+/********************************************************* container 2 *********************************************************/
+
+
+#conta2
+{
+    padding: 8rem 0 8rem 0;
+}
+
+#conta2 img
+{
+    height: 22rem;
+    width: 30rem;
+}
+
+
+#conta2 h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#conta2 p
+{
+    font-size: 1.2rem;
+    margin-top: 1.8rem;
+    text-align: center;
+    color: #4e4d4d;
+}
+
+/********************************************************* container 3 *********************************************************/
+
+#conta3
+{
+    padding: 0 0 8rem 0;
+}
+
+
+#conta3 h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#conta3 p
+{
+    font-size: 1.2rem;
+    margin-top: 1.8rem;
+    text-align: center;
+    color: #4e4d4d;
+}
+
+
+/********************************************************* container 4 *********************************************************/
+
+#cont11
+{
+    background: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)), url("../assests/background2.png") fixed;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+#cont11 #testimonials{
+   
+    text-align: center;
+   
+}
+
+#cont11 .carousel-item{
+    padding: 7% 15%; 
+    color: #fff;
+}
+
+
+
+/********************************************************* container 5 *********************************************************/
+
+#cont12 
+{
+    background-color: #ff4c68;
+    color: white;
+}
+
+#cont12 .dis
+{
+    margin-top: 2rem;
+}
+
+#cont12 .co
+{
+    padding-top: 6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+   
+}
+
+@media only screen and (max-width:990px)
+{
+    #cont12 .co
+    {
+    padding-top: 1rem;
+    }
+    #cont12 .co
+    {
         text-align: center;
     }
 }
 
-
-
-
-/************************************************************Container 2 ******************************************************/
-
-#conta2
-{
-  margin: 4rem 0 4rem;
-}
-
-#conta2 nav > .nav.nav-tabs
-{
-
-border: none;
-color:#fff;
-background: rgb(56, 56, 56);
-border-radius:0;
-
-}
-  #conta2 nav > div a.nav-item.nav-link,
-  nav > div a.nav-item.nav-link.active
-  {
-  border: none;
-    padding: 18px 25px;
-    color:#fff;
-    background: rgb(56, 56, 56);
-    border-radius:0;
-  }
-
-  #conta2 nav > div a.nav-item.nav-link.active:after
-  {
-  content: "";
-  position: relative;
-  bottom: -60px;
-  left: -10%;
-  border: 15px solid transparent;
-  border-top-color: crimson ;
-  }
-  #conta2  .tab-content
-  {
-
-    background: white;
-    line-height: 25px;
-    border: 1px solid #ddd;
-    border-top:5px solid crimson;
-    border-bottom:5px solid crimson;
-    padding:3rem 4rem;
-  }
-
-  #conta2 nav > div a.nav-item.nav-link:hover,
-  nav > div a.nav-item.nav-link:focus
-  {
-  border: none;
-    background: crimson;
-    color:#fff;
-    border-radius:0;
-    transition: background 0.20s linear;
-  }
-
-
-
-  /************************************************************Container 2 ******************************************************/
-
-  #conta3
-  {
-      margin: 6rem 0 4rem;
-  }
- 
-
-  #conta3 .card-group
-  {
-      margin-top: 4rem;
-  }
-
-  
-  #conta3 .cardo
-  {
-      background: transparent;
-      border: none;
-  }
-
-  .stars
-    {
-        color:#ff4c68;
-    }
-
-    #conta3 .underline
-    {
-        height: 3px;
-        width: 3rem;
-        float:left;
-        background: crimson;
-    }
-
 @media only screen and (max-width:575px)
 {
-    #conta3
-    {
-        margin-left: 1rem;
-        margin-right: 1rem;;
-    }
-
-    #conta3 .card-body
-    {
-        font-size: 0.8rem;
-    }
+   #cont12 .butn
+   {
+        font-size: 1.1rem;
+   }
 }
+
+
+
+
 
 /************************************************************footer section ******************************************************/
 
@@ -534,7 +503,6 @@ border-radius:0;
     font-size: 1.1rem;
 
 }
-
 
 @media only screen and (max-width:1024px)
 {

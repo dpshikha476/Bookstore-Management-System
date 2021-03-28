@@ -610,6 +610,24 @@ hr
     box-shadow: 3px 3px rgb(156, 156, 156);
 }
 
+#footer li
+{
+    margin: 0.4rem 0 0.4rem 0;
+    transition: all 0.3s;
+}
+
+
+#footer li:hover
+{
+    margin-left: 0.5rem;
+    transition: all 0.3s;
+}
+#footer a
+{
+    font-size: 1.1rem;
+
+}
+
 
 @media only screen and (max-width:1024px)
 {

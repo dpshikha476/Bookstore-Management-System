@@ -1268,7 +1268,7 @@ hr
 
 /* container 11 */
 
-.cont11
+#cont11
 {
     background: linear-gradient(rgba(7, 6, 6, 0.3),rgba(7, 6, 6, 0.3)), url("../assests/background2.png") fixed;
     padding-top: 4rem;
@@ -1276,13 +1276,13 @@ hr
     text-align: center;
 }
 
-#testimonials{
+#cont11 #testimonials{
    
     text-align: center;
    
 }
 
-.carousel-item{
+#cont11 .carousel-item{
     padding: 7% 15%; 
     color: #fff;
 }
@@ -1293,7 +1293,6 @@ hr
 
 #cont12 
 {
-    padding: 2rem;
     background-color: #ff4c68;
     color: white;
 }
@@ -1385,7 +1384,23 @@ hr
     padding-right: 3rem;
 }
 
+#footer li
+{
+    margin: 0.4rem 0 0.4rem 0;
+    transition: all 0.3s;
+}
 
+
+#footer li:hover
+{
+    margin-left: 0.5rem;
+    transition: all 0.3s;
+}
+#footer a
+{
+    font-size: 1.1rem;
+
+}
 
 
 
