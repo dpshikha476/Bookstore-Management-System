@@ -278,9 +278,39 @@ hr
 
 #conta1
 {
-    padding: 4rem 0 4rem 0;
+    padding: 6rem 0 6rem 0;
 }
 
+
+#conta1 .form-control
+{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background-color: whitesmoke;
+    border: 0.5px solid whitesmoke;
+    border-radius: 0;
+    color: rgb(105, 103, 103);
+    font-weight: bold;
+}
+
+#conta1 .form-control:hover
+{
+    border: 0.5px solid black;
+}
+
+#conta1 .butn
+{
+    border-radius: 0;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+@media only screen and (max-width:575px)
+{
+    #conta1
+    {
+    padding: 6rem 2rem 6rem 2rem;
+    }
+}
 
 /************************************************************footer section ******************************************************/
 
