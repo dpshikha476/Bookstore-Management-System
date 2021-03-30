@@ -312,12 +312,6 @@ hr
     padding: 8rem 0 8rem 0;
 }
 
-#conta2 img
-{
-    height: 22rem;
-    width: 30rem;
-}
-
 
 #conta2 h1
 {
@@ -331,6 +325,21 @@ hr
     margin-top: 1.8rem;
     text-align: center;
     color: #4e4d4d;
+}
+
+#conta2 .center
+{
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width:575px)
+{
+    #conta2 .center
+    {
+        margin-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
 /********************************************************* container 3 *********************************************************/
@@ -353,6 +362,14 @@ hr
     margin-top: 1.8rem;
     text-align: center;
     color: #4e4d4d;
+}
+
+@media only screen and (max-width:575px)
+{
+    #conta3
+    {
+        padding: 0 2rem 8rem 2rem;
+    }
 }
 
 
