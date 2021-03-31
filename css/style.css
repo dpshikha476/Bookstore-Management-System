@@ -177,7 +177,6 @@ hr
 {
     height: 85vh;
     overflow: hidden; 
-    /* animation: animate 16s ease-in-out infinite; */  
     background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background.png") fixed;
     background-size: cover; 
      text-align: center;
@@ -202,27 +201,7 @@ hr
 }
 
     
-    /* @keyframes animate{
-    0%,100%{
-        
-        background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background.png") fixed;
-        background-size: cover;
-    }
-    45%{  
-           
-        background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background2.png") fixed;
-        background-size: cover; 
-    }
-    90%{
-       
-        background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background3.png") fixed;
-        background-size: cover; 
-    }
-   
-    
-    } */
-
-   
+  
 
 
 /* container 2 */
@@ -240,9 +219,6 @@ hr
 }
 
 
-
-
-
 .button
 {
     margin-top: 3rem;
@@ -252,10 +228,8 @@ hr
 
 
 
-#cont2 .i {
-    /* margin-top: 30px;
-    margin-left: 1rem;
-    margin-right: 1rem; */
+#cont2 .i 
+{
     margin: 0 auto 3rem;
 }
 
@@ -263,8 +237,7 @@ hr
 {
     #cont2  .i .c .more p 
     {
-        font-size: 0.9rem;
-      /* margin: 1rem; */
+      font-size: 0.9rem;
       margin: 30px auto 3rem;
       line-height: 16px
     }

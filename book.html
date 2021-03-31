@@ -29,6 +29,7 @@
     
     <!-- css stylesheet -->
     <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Book - Powerful Plots.</title>
 </head>
@@ -307,7 +308,7 @@
 <!------------------------------------------------------------------------- footer --------------------------------------------------->
 
       <section id="footer"> 
-        <div class="container footer-container"> 
+        <div class="container footer-container"   data-aos="zoom-out-down" data-aos-delay="25" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
           
           <div class="row">
   
@@ -396,7 +397,11 @@
         <p style="text-align: center; padding-bottom: 1rem; margin-bottom: 0;">	&copy; Deepshikha</p>
   
       </section>
-      
+    
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
       
   </body>
 

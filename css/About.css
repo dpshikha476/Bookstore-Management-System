@@ -146,7 +146,6 @@ hr
       display: block;
       justify-content: left;
       align-self: center;
-      /* padding-left: 0; */
   }
   
   
@@ -168,15 +167,19 @@ hr
 #navigation .dropdown-menu
 {
     margin-top: 0.8rem;
-    background-color: white;
+    background-color:white;
     border-radius: 0;
     padding: 0.5rem;
 }
 
+#navigation .dropdown-item .ac
+{
+    color: black;
+}
 
 #navigation .dropdown-menu-arrow 
 {
-  top: -25px;
+  top: -26px;
   left: 10%;
   width: 0;
   height: 8px;

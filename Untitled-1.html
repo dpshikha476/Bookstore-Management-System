@@ -61,7 +61,6 @@
       display: block;
       justify-content: left;
       align-self: center;
-      /* padding-left: 0; */
   }
   
   
@@ -75,8 +74,102 @@
       color: #000;
   } 
 
- 
-  
+  .animated-icon3 
+{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    outline: none;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.animated-icon3 span 
+{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+
+.animated-icon3 span 
+{
+    background: black;
+}
+
+
+.animated-icon3 span:nth-child(1) 
+{
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(2) 
+{
+    top: 10px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(3) 
+{
+    top: 20px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.animated-icon3.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+    left: 8px;
+}
+
+.animated-icon3.open span:nth-child(2) 
+{
+    width: 0%;
+    opacity: 0;
+}
+
+.animated-icon3.open span:nth-child(3) 
+{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 21px;
+    left: 8px;
+}
+
 
 
   
@@ -92,7 +185,7 @@
 #navigation .dropdown-menu-arrow 
 {
   top: -25px;
-  left: 10%;
+  left: 15%;
   width: 0;
   height: 8px;
   position: relative;
@@ -131,11 +224,6 @@
     font-size: 2rem;
 }
 
-#navigation .fa
-{
-    font-size: 2rem;
-}
-
   
 @media only screen and (max-width: 575px)
   {
@@ -158,11 +246,6 @@
         #navigation  .brank h4
         {
             font: 0.6rem sans-serif;
-        }
-
-        #navigation .fa
-        {
-            font-size: 1rem;
         }
 
         #navigation .b
@@ -262,8 +345,12 @@
             <div class="row">
             <div class="col-lg-2 col-md-2 col-2 b">
      
-            <button id="customDropdown" type="button" class="bt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <!-- <button id="customDropdown" type="button" class="bt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fa fa-bars" aria-hidden="true"></i>
+            </button> -->
+
+            <button class="navbar-toggler third-button" type="button" data-toggle="dropdown"  aria-expanded="false" aria-label="Toggle navigation">
+            <div class="animated-icon3"><span></span><span></span><span></span></div>
             </button>
                 
             <div class="dropdown-menu" aria-labelledby="customDropdown">
@@ -314,7 +401,15 @@
 </section>
 
 </body>
+<script>
+    $(document).ready(function () {
 
+$('.third-button').on('click', function () {
+
+  $('.animated-icon3').toggleClass('open');
+});
+});
+</script>
 
 </html>
 
