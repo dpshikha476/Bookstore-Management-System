@@ -9,11 +9,10 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <!-- bootstrap cdn -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
     <!-- google fonts -->
    
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -39,57 +38,66 @@
   
     <!---------------------------------------------------------- navbar ---------------------------------------------------------------->
 
-    
-<div class=" flex-row   sticky-top brank">
-  <div class="row">
-    <div class="col-lg-6 col-md-6 col-6">
+    <section id="navigation">
+
+
+      <div class=" flex-row sticky-top brank">
+      <div class="row">
+          <div class="col-lg-6 col-md-6 col-6">
   
-  <a class="navbar-brand logo" href="#">Powerful <span style="color: #ff4c68;">Plots.</span></a>
-  <h5>Your Favorite Bookshelf!</h5>
-</div>
-  <div class="col-lg-6 col-md-6 col-6 l">
-  <h4 style="float: right;">Free Call <span style="color: #ff4c68; font-family: sans-serif;">123-456-7890</span></h4>
-</div>
-</div>
-</div>
-
-
-
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
- 
-  
-  
-    <div class="navbar-toggler-right">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="navbar-toggler-icon"></div>
-                </button>
+              <div class="row">
+              <div class="col-lg-2 col-md-2 col-2 b">
+       
+              <button id="customDropdown" type="button" class="bt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+                  
+              <div class="dropdown-menu" aria-labelledby="customDropdown">
+                  <span class="dropdown-menu-arrow"></span>
+                  <a class="dropdown-item" href="#">Home</a>
+                  <a class="dropdown-item" href="#">Books</a>
+                  <a class="dropdown-item" href="#">About Us</a>
+                  <a class="dropdown-item" href="#">Contact</a>
+              </div>
+              </div>
+               
+              <div class="col-lg-10 col-md-10 col-10 h">
+              <h1 class="navbar-brand logo" href="#">Powerful <span style="color: #ff4c68;">Plots.</span></h1>
+              <h5>Your Favorite Bookshelf!</h5>
+              </div>
+              </div>
+                  
+        </div>
+          <div class="col-lg-6 col-md-6 col-6 l">
+              <h4 style="float: right;">Free Call <span style="color: #ff4c68; font-family: sans-serif;">123-456-7890</span></h4>
+          </div>
       </div>
-
-
-
-  <div class="collapse navbar-collapse flex-column " id="navbar">
-
-    <ul class="navbar-nav  w-100 justify-content-center px-3">
-      <ul class="navbar-nav  w-100 justify-content-center ">
-        <li class="nav-item ">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link"  href="list.html">Books</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-    </ul>
-    </ul>
-
-  </div>
-
-</nav> 
+      </div>
+        
+        
+  </section>
+      
+  <section id="bread">
+      <div class="container">
+      <div class="row">
+  
+          <div class="col-lg-4 col-md-4 col-4 tit">
+              <h4>About Us</h4>
+          </div>
+  
+          <div class="col-lg-8 col-md-8 col-8 tot">
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb float-right">
+                  <li class="breadcrumb-item not-active"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                  </ol>
+              </nav>
+          </div>
+  
+  
+      </div>
+      </div>
+  </section>
 
 
  <!-------------------------------------------------- container 0 ----------------------------------------------------------------------->
