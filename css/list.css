@@ -496,9 +496,9 @@ hr
 
 #conta1
 {
-    height: 65vh;
+    height: 50vh;
     overflow: hidden; 
-    background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background-page2.jfif") fixed;
+    background: linear-gradient(rgba(7, 6, 6, 0.4),rgba(7, 6, 6, 0.4)), url("../assests/bg1.png") fixed;
     background-size: cover; 
     text-align: center;
     display: flex;
@@ -517,6 +517,8 @@ hr
     display: block;
     margin-bottom: 0.5rem;
 }
+
+
 
 @media only screen and (max-width:575px)
 {

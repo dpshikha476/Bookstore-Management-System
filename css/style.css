@@ -4,7 +4,6 @@
 
 .navbar
 {
-    position: fixed;
       padding: 1rem 4rem 1rem;
       background-color: #fff;
       border-bottom: 4px solid #2e2e2e;
@@ -89,10 +88,7 @@
     
     .navbar
     {
-        position: fixed;
         padding: 1rem 2rem 1rem;
-        background-color: #fff;
-        border-bottom: 4px solid #2e2e2e;
         
     } 
 
@@ -162,18 +158,21 @@ hr
 
 .but
 {
+    color: white;
+    background-color: rgb(36, 36, 36);
     font-size: 1.3rem;
     font-weight: bold;
     padding-left: 1rem;
     padding-right: 1rem;
-    border: #2e2e2e solid;
+    border: rgb(36, 36, 36) solid;
 }
 .but:hover
 {
     background: transparent;
     font-weight: bold;
-    border: #2e2e2e solid;
-    color: #2e2e2e;
+    border: rgb(36, 36, 36) solid;
+    color: rgb(36, 36, 36);
+    background-color: white;
 }
 
 .butn
@@ -224,7 +223,7 @@ hr
 
 #cont1
 {
-    height: 85vh;
+    height: 70vh;
     overflow: hidden; 
     background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background.png") fixed;
     background-size: cover; 
@@ -232,6 +231,15 @@ hr
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width:990px)
+{
+    #cont1
+    {
+        background-position: center right;
+    }
+
 }
 
 @media only screen and (max-width:575px)

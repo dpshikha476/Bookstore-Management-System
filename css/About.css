@@ -495,7 +495,7 @@ hr
 
 #conta1
 {
-    height: 65vh;
+    height: 50vh;
     overflow: hidden; 
     background: linear-gradient(rgba(7, 6, 6, 0.2),rgba(7, 6, 6, 0.2)), url("../assests/background-page2.jfif") fixed;
     background-size: cover; 
