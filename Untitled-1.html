@@ -74,7 +74,7 @@
       color: #000;
   } 
 
-  .animated-icon3 
+  #navigation  .animated-icon3 
 {
     width: 30px;
     height: 20px;
@@ -92,7 +92,7 @@
     cursor: pointer;
 }
 
-.animated-icon3 span 
+#navigation .animated-icon3 span 
 {
     display: block;
     position: absolute;
@@ -112,13 +112,17 @@
 }
 
 
-.animated-icon3 span 
+#navigation .animated-icon3 span 
 {
     background: black;
 }
+#navigation button:focus
+{
+    outline: 1px dotted white;
+    outline: 5px auto -webkit-focusring-color ;
+}
 
-
-.animated-icon3 span:nth-child(1) 
+#navigation .animated-icon3 span:nth-child(1) 
 {
     top: 0px;
     -webkit-transform-origin: left center;
@@ -127,7 +131,7 @@
     transform-origin: left center;
 }
 
-.animated-icon3 span:nth-child(2) 
+#navigation .animated-icon3 span:nth-child(2) 
 {
     top: 10px;
     -webkit-transform-origin: left center;
@@ -136,7 +140,7 @@
     transform-origin: left center;
 }
 
-.animated-icon3 span:nth-child(3) 
+#navigation .animated-icon3 span:nth-child(3) 
 {
     top: 20px;
     -webkit-transform-origin: left center;
@@ -145,7 +149,7 @@
     transform-origin: left center;
 }
 
-.animated-icon3.open span:nth-child(1) {
+#navigation .animated-icon3.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -154,13 +158,13 @@
     left: 8px;
 }
 
-.animated-icon3.open span:nth-child(2) 
+#navigation .animated-icon3.open span:nth-child(2) 
 {
     width: 0%;
     opacity: 0;
 }
 
-.animated-icon3.open span:nth-child(3) 
+#navigation .animated-icon3.open span:nth-child(3) 
 {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -224,6 +228,15 @@
     font-size: 2rem;
 }
 
+@media only screen and (max-width: 768px)
+{
+    #navigation .b
+    {
+        margin-left: 0;
+        padding-left: 0;
+            
+    }
+}
   
 @media only screen and (max-width: 575px)
   {
@@ -233,7 +246,7 @@
         }
         #navigation  .brank
         {
-          padding: 1rem 2rem 1rem;
+          padding: 1rem 1rem 1rem;
           background-color: #fff;
           border-bottom: 4px solid #2e2e2e;
         }
@@ -250,8 +263,13 @@
 
         #navigation .b
         {
-             padding: 0;
-            
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        #navigation .h
+        {
+            padding-left: 1.8rem;
         }
 
         #navigation .navbar-brand 
@@ -261,10 +279,13 @@
   
   }
 
+  /*************************** Breadcrumb **************/
+
   #bread
   {
     background-color: black;
   }
+
 
   #bread h4
   {
@@ -344,10 +365,6 @@
 
             <div class="row">
             <div class="col-lg-2 col-md-2 col-2 b">
-     
-            <!-- <button id="customDropdown" type="button" class="bt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </button> -->
 
             <button class="navbar-toggler third-button" type="button" data-toggle="dropdown"  aria-expanded="false" aria-label="Toggle navigation">
             <div class="animated-icon3"><span></span><span></span><span></span></div>
